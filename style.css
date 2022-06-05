@@ -1,0 +1,118 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+body{
+    color: #d8edea;
+  background: url('./images/eezy_68-01.jpg');
+}
+.main{
+    
+    display: flex;
+    justify-content: center;
+
+}
+.grids{
+    margin: 2rem 0 0 14rem;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 200px;
+    background-color: transparent;
+}
+
+.block1 {
+    background-image: url(./images//blue_block.png);
+  }
+  
+  .block2 {
+    background-image: url(./images/purple_block.png);
+  }
+  
+  .block3 {
+    background-image: url(./images/green_block.png);
+  }
+  
+  .block4 {
+    background-image: url(./images/navy_block.png);
+  }
+  
+  .block5 {
+    background-image: url(./images/pink_block.png);
+  }
+
+.gamegrid{
+    height: 20px;
+    width: 20px;
+}
+
+.end{
+    background-color: #000000;
+    border:1px solid #1c084a;
+    height: 20px;
+    width: 20px;
+}
+
+.status{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin: 8rem 0 0 4.5rem;
+    height: 180px;
+    width: 120px;
+    background-color: #716B85;
+}
+.gridStatus{
+    display: flex;
+    flex-wrap: wrap;
+    height:80px;
+    width: 80px;
+    margin: 2rem .5rem 0 2rem;
+}
+
+
+.btndiv {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: .7rem;
+}
+
+.btndiv button{
+    width: 6rem;
+    height: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.stop{
+    background-color: red;
+    color: white;
+}
+.pause{
+    background-color: #3d405b;
+    color: white;
+}
+
+
+.statusGrid{
+    height: 20px;
+    width: 20px;
+}
+
+.score{
+    margin: .5rem 0 0 .5rem;
+    width: 100%;
+    text-align: left;
+    color: #3d405b;
+}
